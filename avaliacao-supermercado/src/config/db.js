@@ -1,6 +1,6 @@
 import mongoose from 'mongoose';
 
-const URI_BD = 'mongodb://localhost/agenda';
+const URI_BD = 'mongodb://localhost/supermercado';
 
 export const conectarBD = () => {
     mongoose
