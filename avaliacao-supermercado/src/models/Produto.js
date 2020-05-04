@@ -12,6 +12,6 @@ const esquema = new mongoose.Schema({
     marca: String
 });
 
-const Compra = mongoose.model('Compra', esquema);
+const Produto = mongoose.model('Produto', esquema);
 
-export default Compra;
+export default Produto;
